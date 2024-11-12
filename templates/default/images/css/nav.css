@@ -1,0 +1,236 @@
+span.dropBottom,
+span.dropRight {
+    display: block;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+}
+
+span.dropBottom {
+    box-shadow: inset 0px 0px 0px #f0831e;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+#nav {
+    z-index: 999;
+    display: table;
+    float: left;
+    background: none;
+    opacity: 1;
+    width: 100%;
+    background: url(../nav_bj.jpg);
+    position: fixed;
+}
+
+.navbox {
+    width: 1200px;
+    height: 68px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 290px;
+    height: 68px;
+    float: left;
+}
+
+.navbox ul {
+    width: auto;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    height: 68px;
+    float: right;
+    background: url(../nav_bj2.png) left no-repeat;
+}
+
+.navbox ul ul {
+    opacity: 0;
+    position: absolute;
+    top: 160%;
+    visibility: hidden;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    background: none;
+}
+
+.navbox ul ul ul {
+    top: 0%;
+    left: 160%;
+}
+
+.navbox ul ul li:hover>ul {
+    top: 0%;
+    left: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbox ul li:hover>ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+}
+
+.navbox ul li {
+    float: left;
+    position: relative;
+}
+
+.navbox ul ul li {
+    float: none;
+    height: 40px;
+    background-color: #585757;
+    margin-bottom: 1px;
+}
+
+.navbox ul ul a {
+    color: #fff;
+    line-height: 40px;
+    text-align: left;
+    transition: all 0.8s;
+    white-space: nowrap;
+}
+
+.navbox ul ul a:hover {
+    color: #00968a;
+}
+
+.navbox ul li {
+    cursor: pointer;
+}
+
+.navbox ul a {
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    padding: 0px 12px 0px 12px;
+    transition: all 0.8s;
+    text-align: center;
+    font-family: 'Microsoft Yahei', sans-serif;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, .2);
+    line-height: 68px;
+}
+
+#active {
+    color: #fff;
+}
+
+.navbox ul a:hover {
+    color: #fff;
+}
+
+.navbox ul li:hover {}
+
+.navbox ul li a:hover {}
+
+#navpage {
+    z-index: 999;
+    display: table;
+    float: left;
+    background: none;
+    color: #000;
+    opacity: 1;
+    width: 100%;
+    position: fixed;
+}
+
+.navboxpage {
+    width: 1200px;
+    height: 68px;
+    margin: 0 auto;
+}
+
+.navboxpage ul {
+    width: auto;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    height: 68px;
+    float: right;
+}
+
+.navboxpage ul ul {
+    opacity: 0;
+    position: absolute;
+    top: 160%;
+    visibility: hidden;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    background: none;
+}
+
+.navboxpage ul ul ul {
+    top: 0%;
+    left: 160%;
+}
+
+.navboxpage ul ul li:hover>ul {
+    top: 0%;
+    left: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.navboxpage ul li:hover>ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+}
+
+.navboxpage ul li {
+    float: left;
+    position: relative;
+}
+
+.navboxpage ul ul li {
+    float: none;
+    height: 40px;
+    background-color: #00968a;
+    margin-bottom: 1px;
+}
+
+.navboxpage ul ul a {
+    color: #585757;
+    line-height: 40px;
+    text-align: left;
+    transition: all 0.8s;
+    white-space: nowrap;
+}
+
+.navboxpage ul ul a:hover {
+    color: #fff;
+}
+
+.navboxpage ul li {
+    cursor: pointer;
+}
+
+.navboxpage ul a {
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    padding: 0px 12px 0px 12px;
+    transition: all 0.8s;
+    text-align: center;
+    font-family: 'Microsoft Yahei', sans-serif;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, .2);
+    line-height: 68px;
+}
+
+#active_page {
+    color: #fff;
+}
+
+.navboxpage ul a:hover {
+    color: #fff;
+}
+
+.navboxpage ul li:hover {}
+
+.navboxpage ul li a:hover {}
