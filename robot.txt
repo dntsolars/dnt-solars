@@ -1,0 +1,6 @@
+# This is a comment. It won't be read by the search engines.
+
+User-agent: *
+
+# Sitemap Location
+Sitemap: https://www.dntsolars.com/sitemap.xml

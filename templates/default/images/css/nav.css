@@ -136,6 +136,7 @@ span.dropBottom {
     color: #000;
     opacity: 1;
     width: 100%;
+    background: url(../nav2_bj.jpg);
     position: fixed;
 }
 
@@ -152,6 +153,7 @@ span.dropBottom {
     list-style: none;
     height: 68px;
     float: right;
+    background: url(../nav2_bj2.png) left no-repeat;
 }
 
 .navboxpage ul ul {
