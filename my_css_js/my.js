@@ -58,6 +58,7 @@ function openProductDetails(card) {
   const imageSrc = card.querySelector(".product-image img").src;
   const description = card.querySelector(".product-desc").innerText;
   const price = card.querySelector(".product-price").innerText;
+  const minOrder = card.querySelector(".min-order").innerText;
   const bannerSrc = card.querySelector(".product-banner img").src;
 
   // Set the popup elements with the retrieved values
@@ -65,7 +66,9 @@ function openProductDetails(card) {
   document.getElementById("popup-product-image").src = imageSrc;
   document.getElementById("popup-product-desc").innerText = description;
   document.getElementById("popup-product-price").innerText = price;
+  document.getElementById("popup-min-order").src = minOrder;
   document.getElementById("popup-product-banner").src = bannerSrc;
+
 
   // Display the popup
   document.getElementById("product-details-screen").style.display = "flex";
