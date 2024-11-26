@@ -136,6 +136,10 @@
   font-weight: bold;
   font-size: 15px;
 }
+
+#popup-min-order{
+  font-weight: bold;
+}
 /* Product Details Popup */
 .product-details-screen {
   display: none;

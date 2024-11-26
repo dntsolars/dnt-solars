@@ -66,7 +66,7 @@ function openProductDetails(card) {
   document.getElementById("popup-product-image").src = imageSrc;
   document.getElementById("popup-product-desc").innerText = description;
   document.getElementById("popup-product-price").innerText = price;
-  document.getElementById("popup-min-order").src = minOrder;
+  document.getElementById("popup-min-order").innerText = minOrder;
   document.getElementById("popup-product-banner").src = bannerSrc;
 
 
